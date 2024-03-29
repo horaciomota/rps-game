@@ -11,7 +11,13 @@ public class Game {
         String computerChoice = scan.nextLine();
 
         System.out.println("Computer choice: " + computerChoice);
-        // 2 - Criar aleatoriamente o input da maquina
+
         // 3 - Comparar e ver quem ganhou 
     }
+                
+
+        //Criar aleatoriamente o input da maquina
+        public static int generateARandomNumber() {
+        return (int) (Math.random() * 3);
+        } 
 }
